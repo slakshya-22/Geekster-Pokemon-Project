@@ -1,4 +1,4 @@
-# GeeksterPok
+# GeeksterMon
 
 GeeksterPok is a simple web application that displays a list of Pokémon. You can filter Pokémon by type, search for specific Pokémon by name, and reset the filters to view all Pokémon. Each Pokémon card flips on hover to reveal additional details like types and abilities.
 
