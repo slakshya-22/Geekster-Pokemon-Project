@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeeksterPok</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GeeksterPok</h1>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search Pokémon..." />
+        <div class="filter-buttons">
+          <button class="filter-btn" data-type="all">All</button>
+          <button class="filter-btn" data-type="grass">Grass</button>
+          <button class="filter-btn" data-type="fire">Fire</button>
+          <button class="filter-btn" data-type="water">Water</button>
+          <button class="filter-btn" data-type="electric">Electric</button>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="pokemon-list" class="pokemon-list"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
